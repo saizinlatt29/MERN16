@@ -1,0 +1,16 @@
+(1)useState is hook is used to store state for a functional component.
+This hook accepts on parameter: initialState,which will be set as the initial statful value, and return
+two values: the stateful value and update function to update the stateful value.
+The update function accepts one argument, newState, which replaces the existing statful value.
+
+
+
+ (2)useRef hook allows you to persit values between renders.It can be used to store a mutable value that does not cause a re-render when updated.
+    It can be use to access a dom element directly. 
+
+  (3) useEffect Hook allows you to perform side effects in your components.
+      Exmaples od side effects are :fetching data,directly updating the DOM , and timer.
+
+  (4)useSelector makes our component capable of being subscriber to store like mapStatToProps.
+
+ (5) useDispatch makes our component capable of being subscriber to store like mapStatToProps
